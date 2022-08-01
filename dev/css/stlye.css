@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/img/starOnTheHorizon.jpg");
+  background-size: 100%;
+  position: relative;
+  font-family:monospace;
+  border-top: 5px solid yellow;
+}
+
+.navBar {
+  text-align: center;
+}
+a {
+  color: gold;
+  text-decoration: none;
+  padding: 10px;
+}
+.contentHeader {
+  background-color: black;
+  color: rgb(57, 57, 232);
+  text-align: center;
+  margin: auto;
+}
+.contentHeader2{
+  background-color: black;
+  color: rgb(57, 57, 232);
+  text-align: center;
+  margin: auto;
+}
+img {
+  height: 150;
+  width: 300;
+  padding: 10px;
+}
+
+.quotes {
+  border: 3px dotted orange;
+  background-color: black;
+  margin: 5px;
+  color: rgb(11, 246, 11);
+  
+}
+.content {
+  display: grid;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  color: rgb(242, 11, 242);
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
