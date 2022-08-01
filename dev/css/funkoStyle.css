@@ -1,0 +1,29 @@
+body {
+    background-image: url(/img-funko/2889458.jpg);
+    background-size: 100%;
+    position: relative;
+    text-align: center;
+    font-family:monospace;
+  }
+  .navBar {
+    text-align: center;
+  }
+  a {
+    color: gold;
+    text-decoration: none;
+    padding: 10px;
+  }
+  img {
+    height: 250px;
+  }
+  .footer {
+    background-color: black;
+    text-align: center;
+    color: rgb(242, 11, 242);
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  h1{
+    color: red;
+    background-color: black;
+  }

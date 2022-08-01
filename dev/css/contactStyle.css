@@ -1,0 +1,39 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+body{
+    background-image: url("/img/greyJedi.jpg");
+    background-size: 100%;
+    text-align: center;
+}
+header{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+a{
+    background-color: black;
+    text-decoration: none;
+    color: gold;
+}
+
+
+img{
+    height: 150px;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    margin: 5px;
+}
+.footer {
+    background-color: black;
+    text-align: center;
+    color: rgb(242, 11, 242);
+    margin-left: 300px;
+    margin-right: 300px;
+  }
