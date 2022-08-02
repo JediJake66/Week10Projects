@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me</title>
     <link rel="stylesheet" href="/css/contactStyle.css" />
+    
   </head>
   <body>
     <header>
@@ -16,10 +17,22 @@
     </header>
     <img src="img\headshot2.jpg" alt="Jacob Stout" />
     <ul>
-      <li><address>jacobstout59@gmail.com</address></li>
       <li><a href="https://jedijake66.github.io/">My personal portfolio</a></li>
       <li><a href="https://www.linkedin.com/in/jacob-a-stout/">LinkedIn</a></li>
     </ul>
+    <form name="contactForm" class="contactForm" onsubmit="return validate()">
+      <label for="fname">First name :</label>
+      <input type="text" id="fname" name="fname" />
+      <label for="lname">Last name :</label>
+      <input type="text" id="lname" name="lname" /><br />
+      <label for="email">Email :</label>
+      <input type="text" id="email" name="email" />
+      <label for="mobNum">Mobile Number :</label>
+      <input type="text" id="mobNum" name="mobNum" /><br />
+      <label for="message">Provide any details (Optional)</label>
+      <textarea id="message" name="message" maxlength="250"> </textarea><br />
+      <input type="submit" value="Submit" name="submit" />
+    </form>
   </body>
   <footer class="footer">
     <p class="footerClass">
@@ -27,4 +40,5 @@
       <a href="https://github.com/JediJake66">Github Portfolio</a>
     </p>
   </footer>
+  <script src="/js/contact.js"></script>
 </html>
