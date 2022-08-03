@@ -1,0 +1,43 @@
+.App {
+  /* text-align: center; */
+  font-family: "Courier New", Courier, monospace;
+  background-color:coral;
+}
+h1 {
+  background: black;
+  color: green;
+  text-align: center;
+}
+.moneyForm {
+  background-image: url("https://media3.giphy.com/media/IM5f8RC24KpV7WGhEU/giphy.gif?cid=ecf05e47w4b59ey8bdsbssik5ayhaaqwrki53ru3g82ni98o&rid=giphy.gif&ct=g");
+  background-size: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  background-repeat: no-repeat;
+}
+li {
+  margin: 50px;
+  list-style:none;
+  text-decoration: underline;
+  background-color: white;
+  
+}
+.formContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 250px;
+  margin-right: 100px;
+  text-align: center;
+}
+.submit-btn {
+  margin-top: 50px;  
+}
+h3{
+  margin-left:200px ;
+}
+.truthSection{
+  background-image: url("/public/truthKey.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  
+}
